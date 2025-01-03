@@ -1,4 +1,5 @@
 import "./App.css";
+import CounterComponent from "./components/Counter.component";
 /**
  import TiposBasicos from "./typeScript/TiposBasicos";
  import ObjetosLiterales from " ./typeScript/ObjetosLiterales";
@@ -13,8 +14,9 @@ function App() {
       {/* <TiposBasicos /> */}
       {/* <ObjetosLiterales /> */}
       {/* <FuncionesBasicas /> */}
-      <div className="flex justify-center items-center h-vh">
-        <h1 className="text-3xl mb-5">Hello world!</h1>
+      <div className="flex flex-col justify-center  items-center h-vh">
+        <h1 className="text-4xl mb-5">Hello world!</h1>
+        <CounterComponent />
       </div>
     </>
   );
